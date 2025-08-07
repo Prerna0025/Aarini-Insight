@@ -6,7 +6,6 @@ from fastapi import FastAPI, Request
 from RAG_core import RAG_main
 app = FastAPI()
 rag = RAG_main()
-
 @app.post("/rag/query")
 async def query_rag(request: Request):
     data = await request.json()
