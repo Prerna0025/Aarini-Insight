@@ -4,7 +4,6 @@ import requests
 
 st.set_page_config(page_title="Aarini App", layout="wide")
 rag = RAG_main()
-
 st.title("Aarini Question Answer App")
 
 
