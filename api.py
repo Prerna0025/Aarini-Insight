@@ -2,6 +2,7 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
+
 from fastapi import FastAPI, Request
 from RAG_core import RAG_main
 
