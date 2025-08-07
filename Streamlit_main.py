@@ -7,6 +7,7 @@ rag = RAG_main()
 
 st.title("Aarini Question Answer App")
 
+
 with st.form(key="query_form"):
     query = st.text_input("Enter Your question here")
     submit_button = st.form_submit_button(label="Submit")
