@@ -20,5 +20,6 @@ if submit_button and query:
             st.write(response.json().get("response"))
         else:
             st.error("Error fetching response. Please try again later.")
+            
         
         #st.write(response)
