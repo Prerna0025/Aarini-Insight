@@ -8,7 +8,6 @@ from backend.load_and_batch_vectors import set_up_pinecone
 from backend.augmentprompt import augment_prompt
 from backend.generatedata import GenerateData
 
-
 class RAG_main:
     def __init__(self):
         self.embed = Embeddings()
